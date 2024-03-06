@@ -3,7 +3,7 @@ from src.transform import drop_columns
 from src.transform import handle_missing_values
 from src.transform import handle_outliers
 from src.transform import normalize_text
-from src.database import create_table_and_insert_data
+from src.load import create_table_and_insert_data
 from src.analyze import top_10_products_analysis
 
 dataset_path = "data/Digital_Music.json"
